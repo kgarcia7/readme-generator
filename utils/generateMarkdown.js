@@ -30,9 +30,7 @@ function renderLicenseSection(license) {
   }
   const licenseBadge = renderLicenseBadge(license);
   const licenseLink = renderLicenseLink(license);
-  return `
-  This project is licensed under the [${license}]({${licenseLink}}) license. ${licenseBadge}
-  `;
+  return `This project is licensed under the [${license}]({${licenseLink}}) license. ${licenseBadge}`;
   }
 
 
